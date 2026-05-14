@@ -1,0 +1,242 @@
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1e293b;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #38bdf8;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.app-container {
+  min-height: 100vh;
+  background: #0f172a;
+}
+
+.navbar {
+  height: 70px;
+  background: #111827;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: 1px solid #334155;
+}
+
+.logout-btn,
+.login-btn,
+.upload-btn {
+  background: #38bdf8;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dashboard-container {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+.upload-card,
+.history-card,
+.result-card,
+.login-card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.upload-card {
+  width: 35%;
+}
+
+.history-card {
+  flex: 1;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.claim-item {
+  background: #111827;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.result-card {
+  margin-top: 20px;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 350px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.history-card {
+
+  background: #1e293b;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  overflow-y: auto;
+
+  max-height: 500px;
+}
+
+.claim-item {
+
+  background: #0b1220;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  margin-bottom: 15px;
+}
+
+.claim-item button {
+  position: relative;
+  z-index: 999;
+  pointer-events: auto;
+}
+
+.history-card {
+  position: relative;
+  z-index: 1;
+}
+
+.claim-item {
+  position: relative;
+}
+
+.dashboard-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 100vh;
+  background: #020817;
+}
+
+.upload-card,
+.history-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  overflow-y: auto;
+}
+
+.upload-card {
+  width: 38%;
+}
+
+.history-card {
+  width: 62%;
+}
+
+.claim-item {
+  background: #020817;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.claim-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.claim-buttons button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  pointer-events: auto;
+}
+
+.approve-btn {
+  background: #22c55e;
+}
+
+.reject-btn {
+  background: #ef4444;
+}
